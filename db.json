@@ -2,51 +2,103 @@
     "posts": [
         {
             "id": "61d5e259e9f754af7a482500",
-            "fullName": "Eric Olsen",
+            "fullname": "Eric Olsen",
 			"age": 25,
 			"image": "https://i.pravatar.cc/50?u=1",
 			"socialUrl": "https://www.instagram.com/eric-olsen",
+			"isAdmin": true,
 			"status": "active"
         },
 		{
             "id": "61d5e6509ca7b5486f244692",
-            "fullName": "Cailyn Warner",
+            "fullname": "Cailyn Warner",
 			"age": 30,
 			"image": "https://i.pravatar.cc/50?u=2",
 			"socialUrl": "https://www.instagram.com/cailyn-warner",
+			"isAdmin": false,
 			"status": "active"
         },
 		{
             "id": "61d5e6977daeac038c809f45",
-            "fullName": "Danna Mckinney",
+            "fullname": "Danna Mckinney",
 			"age": 27,
 			"image": "https://i.pravatar.cc/50?u=3",
 			"socialUrl": "https://www.instagram.com/danna-mckinney",
+			"isAdmin": false,
 			"status": "inactive"
         },
 		{
             "id": "61d5e830855604cac2540d37",
-            "fullName": "Frank Simpson",
+            "fullname": "Frank Simpson",
 			"age": 27,
 			"image": "https://i.pravatar.cc/50?u=4",
 			"socialUrl": "https://www.instagram.com/frank-simpson",
+			"isAdmin": false,
 			"status": "pending"
         },
 		{
             "id": "61d5e88d7b851e426bed58bb",
-            "fullName": "Victor Walker",
+            "fullname": "Victor Walker",
 			"age": 33,
 			"image": "https://i.pravatar.cc/50?u=5",
 			"socialUrl": "https://www.instagram.com/victor-walker",
+			"isAdmin": false,
 			"status": "inactive"
         },
 		{
             "id": "61d5e8ba37adb8657458b871",
-            "fullName": "Melany Paul",
+            "fullname": "Melany Paul",
 			"age": 29,
 			"image": "https://i.pravatar.cc/50?u=6",
 			"socialUrl": "https://www.instagram.com/melany-paul",
+			"isAdmin": true,
 			"status": "active"
         }
-    ]
+    ],
+	"page": {
+		"fields": [
+			{
+				"name": "fullname",
+				"component": "Input",
+				"type": "text",
+				"required": true
+			},
+			{
+				"name": "socialUrl",
+				"component": "Input",
+				"type": "text",
+				"required": false
+			},
+			{
+				"name": "status",
+				"component": "Select",
+				"required": true
+			},
+			{
+				"name": "age",
+				"component": "Input",
+				"type": "number",
+				"required": false
+			},
+			{
+				"name": "address",
+				"component": "Input",
+				"type": "text",
+				"required": false
+			},
+			{
+				"name": "image",
+				"component": "Input",
+				"type": "text",
+				"required": true
+			},
+			{
+				"name": "isAdmin",
+				"component": "Checkbox",
+				"required": true
+			}
+		],
+		"endpointListPost": "https://my-json-server.typicode.com/fizzmod/dummy-server/posts",
+		"endpointGetPut": "https://my-json-server.typicode.com/fizzmod/dummy-server/{id}"
+	}
 }
