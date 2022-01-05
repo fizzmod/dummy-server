@@ -1,11 +1,52 @@
 {
-	"posts": [
-	  {
-		"id": 1,
-		"title": "hello"
-	  }
-	],
-	"profile": {
-	  "name": "typicode"
-	}
+    "posts": [
+        {
+            "id": "61d5e259e9f754af7a482500",
+            "fullName": "Eric Olsen",
+			"age": 25,
+			"image": "https://i.pravatar.cc/50?u=1",
+			"socialUrl": "https://www.instagram.com/eric-olsen",
+			"status": "active"
+        },
+		{
+            "id": "61d5e6509ca7b5486f244692",
+            "fullName": "Cailyn Warner",
+			"age": 30,
+			"image": "https://i.pravatar.cc/50?u=2",
+			"socialUrl": "https://www.instagram.com/cailyn-warner",
+			"status": "active"
+        },
+		{
+            "id": "61d5e6977daeac038c809f45",
+            "fullName": "Danna Mckinney",
+			"age": 27,
+			"image": "https://i.pravatar.cc/50?u=3",
+			"socialUrl": "https://www.instagram.com/danna-mckinney",
+			"status": "inactive"
+        },
+		{
+            "id": "61d5e830855604cac2540d37",
+            "fullName": "Frank Simpson",
+			"age": 27,
+			"image": "https://i.pravatar.cc/50?u=4",
+			"socialUrl": "https://www.instagram.com/frank-simpson",
+			"status": "pending"
+        },
+		{
+            "id": "61d5e88d7b851e426bed58bb",
+            "fullName": "Victor Walker",
+			"age": 33,
+			"image": "https://i.pravatar.cc/50?u=5",
+			"socialUrl": "https://www.instagram.com/victor-walker",
+			"status": "inactive"
+        },
+		{
+            "id": "61d5e8ba37adb8657458b871",
+            "fullName": "Melany Paul",
+			"age": 29,
+			"image": "https://i.pravatar.cc/50?u=6",
+			"socialUrl": "https://www.instagram.com/melany-paul",
+			"status": "active"
+        }
+    ]
 }
