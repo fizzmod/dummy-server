@@ -119,6 +119,6 @@
 			}
 		],
 		"endpointListPost": "https://my-json-server.typicode.com/fizzmod/dummy-server/posts",
-		"endpointGetPut": "https://my-json-server.typicode.com/fizzmod/dummy-server/{id}"
+		"endpointGetPut": "https://my-json-server.typicode.com/fizzmod/dummy-server/posts/{id}"
 	}
 }
